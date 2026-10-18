@@ -68,7 +68,7 @@ bash scripts/acceptance.sh all        # 一键验收
 | 圆周轨迹外接框 | 半径 1.5 → 直径 3.0 | **3.0 × 3.0**，宽高比 1.0 |
 | tf2 相机安装偏移 | (0.15, 0, 0.10) | **(0.150, 0.000, 0.100)** |
 
-![turtlesim 真实截图](evidence/screenshots/w2_画圆_真实截图.png)
+![turtlesim 真实截图](evidence/screenshots/w2-circle-screenshot.png)
 
 **未验证项**（逐条列在 [docs/04](docs/04_验证边界说明.md) 第 3 节，含补验命令）：
 `colcon build` 安装、`ros2 launch` 端到端启动、交互式键盘遥控——

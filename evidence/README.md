@@ -33,7 +33,7 @@
 
 | 文件 | 内容 |
 |---|---|
-| `w2_画圆_真实截图.png` | turtlesim 窗口的真实截图：蓝色背景上一个完整的白色圆，乌龟停在圆上。由 `circle_driver`（`radius:=1.5`）驱动画出的轨迹，用 `PrintWindow` 只截该窗口，未包含桌面其他内容 |
+| `w2-circle-screenshot.png` | turtlesim 窗口的真实截图：蓝色背景上一个完整的白色圆，乌龟停在圆上。由 `circle_driver`（`radius:=1.5`）驱动画出的轨迹，用 `PrintWindow` 只截该窗口，未包含桌面其他内容 |
 
 ## 怎么自己复现
 
