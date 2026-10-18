@@ -12,10 +12,10 @@
 
 | 项 | 值 |
 |---|---|
-| 位置 | `D:\ros2\envs\humble` |
-| 包管理器 | micromamba（`D:\_ros2_verify\micromamba.exe`） |
+| 位置 | `C:\ros2\envs\humble` |
+| 包管理器 | micromamba（`C:\_ros2_verify\micromamba.exe`） |
 | 已装包 | ros-base、turtlesim、tf2_ros/tf2_tools、rosbag2、ros2bag、demo-nodes-py、colcon |
-| 体积 | 约 2 GB |
+| 体积 | 约 6.8 GB |
 
 它是**真正的 ROS 2 Humble**，不是模拟器：rclpy、话题、服务、tf2、rosbag2 的
 行为与 Ubuntu 版一致。本工作区的 W1–W4 代码就是在这上面跑通并验收的
@@ -26,28 +26,28 @@
 打开 PowerShell，先设两个环境变量：
 
 ```powershell
-$env:MAMBA_ROOT_PREFIX = 'D:\ros2'
-$mm = 'D:\_ros2_verify\micromamba.exe'
+$env:MAMBA_ROOT_PREFIX = 'C:\ros2'
+$mm = 'C:\_ros2_verify\micromamba.exe'
 ```
 
 然后任何命令都通过 `micromamba run` 执行：
 
 ```powershell
 # 看 ROS 版本
-& $mm run -p 'D:\ros2\envs\humble' ros2 pkg list
+& $mm run -p 'C:\ros2\envs\humble' ros2 pkg list
 
 # 起乌龟（会弹出一个窗口）
-& $mm run -p 'D:\ros2\envs\humble' ros2 run turtlesim turtlesim_node
+& $mm run -p 'C:\ros2\envs\humble' ros2 run turtlesim turtlesim_node
 
 # 另开一个 PowerShell 窗口，让工作区里的代码动起来
 $env:PYTHONPATH = 'D:\Vibe Coding\patrol-robot-ros2\src\m1_pubsub_demo'
-& $mm run -p 'D:\ros2\envs\humble' python -m m1_pubsub_demo.circle_driver --ros-args -p radius:=1.5
+& $mm run -p 'C:\ros2\envs\humble' python -m m1_pubsub_demo.circle_driver --ros-args -p radius:=1.5
 ```
 
 跑整套验收：
 
 ```powershell
-& $mm run -p 'D:\ros2\envs\humble' python 'D:\Vibe Coding\patrol-robot-ros2\scripts\acceptance.py' all
+& $mm run -p 'C:\ros2\envs\humble' python 'D:\Vibe Coding\patrol-robot-ros2\scripts\acceptance.py' all
 ```
 
 ## 3. Windows 侧特有的三个坑
@@ -103,8 +103,8 @@ Windows + RoboStack 组合下的已知问题，与包本身无关（同样的包
 这套环境完全独立，删掉不影响项目：
 
 ```powershell
-Remove-Item 'D:\ros2' -Recurse -Force          # 约 2 GB
-Remove-Item 'D:\_ros2_verify' -Recurse -Force  # micromamba 与验证脚本
+Remove-Item 'C:\ros2' -Recurse -Force          # 约 6.8 GB
+Remove-Item 'C:\_ros2_verify' -Recurse -Force  # micromamba 与验证脚本
 ```
 
 删之前记得：项目里的代码、文档、证据都在 `D:\Vibe Coding\patrol-robot-ros2`，
