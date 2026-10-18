@@ -1,0 +1,17 @@
+[INFO] [1792265905.703358800] [tf_listener]: tf_listener 启动：每 1.0s 查询 camera_link 在 world 下的位姿
+[INFO] [1792265906.661611900] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265907.657263300] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265908.660861700] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265909.653538500] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265910.659910800] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265911.665458100] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265912.659898000] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265913.653532200] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265914.659581900] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265915.654508300] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265916.663658700] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265917.656842000] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265918.662436200] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265919.663087700] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265920.665964100] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad
+[INFO] [1792265921.656056600] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad

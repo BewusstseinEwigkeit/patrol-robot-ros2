@@ -1,0 +1,27 @@
+{
+  "stage": "finished_wait",
+  "summary": {
+    "samples": 616,
+    "path_length": 15.5197,
+    "turn_angle": 10.3467,
+    "bbox": {
+      "min_x": 4.0285,
+      "max_x": 7.0285,
+      "min_y": 5.5444,
+      "max_y": 8.5444
+    },
+    "aspect_ratio": 1.0,
+    "last_pose": {
+      "x": 4.3237,
+      "y": 7.9381,
+      "theta": -2.2197
+    }
+  },
+  "summary_file": "D:\\_ros2_verify\\live\\w2_pose_summary.json",
+  "ok": true,
+  "logs": {
+    "turtlesim": "[INFO] [1792265689.632473000] [turtlesim]: Starting turtlesim with node name /turtlesim\n[INFO] [1792265689.643875000] [turtlesim]: Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]\n",
+    "pose_monitor": "[INFO] [1792265696.884808600] [pose_monitor]: pose_monitor 启动：订阅 /turtle1/pose，每 2.0s 汇报一次\n[INFO] [1792265698.866663500] [pose_monitor]: [ 125 帧] 位置=( 5.54,  5.54) 朝向= 0.00 rad | 累计路程=  0.00 累计转角=  0.00 rad\n[INFO] [1792265700.859547100] [pose_monitor]: [ 241 帧] 位置=( 6.59,  8.11) 朝向= 2.35 rad | 累计路程=  3.52 累计转角=  2.35 rad\n[INFO] [1792265702.863610100] [pose_monitor]: [ 366 帧] 位置=( 4.10,  6.58) 朝向=-1.27 rad | 累计路程=  7.52 累计转角=  5.01 rad\n[INFO] [1792265704.867607300] [pose_monitor]: [ 491 帧] 位置=( 7.01,  6.80) 朝向= 1.40 rad | 累计路程= 11.52 累计转角=  7.68 rad\n[INFO] [1792265706.866812400] [pose_monitor]: 统计已写入 D:\\_ros2_verify\\live\\w2_pose_summary.json\n[INFO] [1792265706.869025600] [pose_monitor]: pose_monitor 结束：616 帧，路程 15.5197 m，转角 10.3467 rad，外接框宽高比 1.0\n",
+    "circle_driver": "[INFO] [1792265699.088022900] [circle_driver]: circle_driver 启动：v=2.000 m/s, w=1.333 rad/s, 实际半径≈1.500 m, 话题=/turtle1/cmd_vel\n[INFO] [1792265708.037028100] [circle_driver]: circle_driver 结束：共运行 9.0s，已发布零速度。\n"
+  }
+}

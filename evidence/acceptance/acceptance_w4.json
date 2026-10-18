@@ -1,0 +1,11 @@
+{
+  "target": "w4",
+  "passed": [
+    "W4.1 tf2 能查到 world -> camera_link",
+    "W4.2 坐标变换在数值上正确",
+    "W4.3 官方 tf2_echo 独立复核通过"
+  ],
+  "failed": [],
+  "notes": [],
+  "ok": true
+}

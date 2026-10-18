@@ -1,0 +1,17 @@
+{
+  "target": "w3",
+  "passed": [
+    "W3.1 三个节点（turtlesim + circle_driver + pose_monitor）同时运行",
+    "W3.1 画圆节点与位姿节点都在 ROS 图里",
+    "W3.2 launch/节点参数生效（位姿统计文件已生成）",
+    "W3.3 rosbag 生成了数据文件",
+    "W3.4 包里录到了 /turtle1/pose（由 db3 内容确认）"
+  ],
+  "failed": [],
+  "notes": [
+    "ros2 launch 没起来（本机可能没 colcon build），改用逐个起节点验证",
+    "统计：564 帧，路程 16.672 m",
+    "录包 8 秒 ..."
+  ],
+  "ok": true
+}

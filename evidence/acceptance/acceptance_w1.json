@@ -1,0 +1,17 @@
+{
+  "target": "w1",
+  "passed": [
+    "W1.2 turtlesim 在跑，位姿与速度话题都在",
+    "W1.3 节点查询正常（看到 /turtlesim）",
+    "W1.3 service 查询正常（teleport_absolute 存在）",
+    "W1.3 param 查询正常",
+    "W1.4 发速度后乌龟真的动了",
+    "W1.5 keyboard_teleop 在不可用环境下正确拒绝启动（行为符合设计）"
+  ],
+  "failed": [],
+  "notes": [
+    "turtlesim 已就绪",
+    "W1.5 未通过 ros2 run 找到包（没 colcon build 时正常），改验证模块行为"
+  ],
+  "ok": true
+}

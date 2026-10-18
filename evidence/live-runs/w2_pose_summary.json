@@ -1,0 +1,17 @@
+{
+  "samples": 616,
+  "path_length": 15.5197,
+  "turn_angle": 10.3467,
+  "bbox": {
+    "min_x": 4.0285,
+    "max_x": 7.0285,
+    "min_y": 5.5444,
+    "max_y": 8.5444
+  },
+  "aspect_ratio": 1.0,
+  "last_pose": {
+    "x": 4.3237,
+    "y": 7.9381,
+    "theta": -2.2197
+  }
+}

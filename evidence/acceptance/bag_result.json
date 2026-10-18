@@ -1,0 +1,15 @@
+{
+  "bag_created": true,
+  "bag_path": "D:\\_ros2_verify\\live\\bags\\m1_demo",
+  "bag_files": [
+    "m1_demo_0.db3"
+  ],
+  "metadata_exists": false,
+  "bag_info_rc": 1,
+  "bag_info": "Could not find metadata in bag directory D:\\_ros2_verify\\live\\bags\\m1_demo\n",
+  "bag_info_has_pose": false,
+  "bag_info_has_cmd_vel": false,
+  "play_output": "[ERROR] [1792266835.765566200] [rosbag2_storage]: No storage id specified, and no plugin found that could open URI\nNo storage could be initialized from the inputs.\n",
+  "play_started": true,
+  "ok": false
+}

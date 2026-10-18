@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>m1_bringup</name>
+  <version>0.1.0</version>
+  <description>M1 W3: launch 文件、参数传递与 rosbag 录制回放</description>
+  <maintainer email="maintainer@localhost">patrol-robot-ros2</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
+  <exec_depend>m1_pubsub_demo</exec_depend>
+  <exec_depend>ros2bag</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

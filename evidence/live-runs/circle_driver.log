@@ -1,0 +1,2 @@
+[INFO] [1792265699.088022900] [circle_driver]: circle_driver 启动：v=2.000 m/s, w=1.333 rad/s, 实际半径≈1.500 m, 话题=/turtle1/cmd_vel
+[INFO] [1792265708.037028100] [circle_driver]: circle_driver 结束：共运行 9.0s，已发布零速度。

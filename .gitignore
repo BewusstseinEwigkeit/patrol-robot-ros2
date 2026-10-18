@@ -1,0 +1,20 @@
+# colcon / ament 产物
+/build/
+/install/
+/log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# 验收与录包的临时产物（结果请放 outputs/ 或 evidence/）
+*.db3
+*.mcap
+/tmp/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

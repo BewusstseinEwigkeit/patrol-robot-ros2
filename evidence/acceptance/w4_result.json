@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "listener_has_output": true,
+  "broadcaster_published": true,
+  "listener_coords_samples": [],
+  "tf2_echo_ok": true,
+  "tf2_echo_translation_samples": [
+    "5.694, 5.544, 0.100",
+    "5.694, 5.544, 0.100",
+    "5.694, 5.544, 0.100"
+  ],
+  "expected_offset_from_base": [
+    0.15,
+    0.0,
+    0.1
+  ],
+  "logs_tail": {
+    "listener": "[INFO] [1792265905.703358800] [tf_listener]: tf_listener 启动：每 1.0s 查询 camera_link 在 world 下的位姿\n[INFO] [1792265906.661611900] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad\n[INFO] [1792265907.657263300] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad\n[INFO] [1792265908.660861700] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad\n[INFO] [1792265909.653538500] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad\n[INFO] [1792265910.659910800] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad\n[INFO] [1792265911.665458100] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad\n[INFO] [1792265912.659898000] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad\n[INFO] [1792265913.653532200] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad\n[INFO] [1792265914.659581900] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad\n[INFO] [1792265915.654508300] [tf_listener]: camera_link 在 world 下：( 5.694,  5.544,  0.100)，yaw= 0.000 rad\n",
+    "tf2_echo": "\n  0.000  1.000  0.000  5.544\n  0.000  0.000  1.000  0.100\n  0.000  0.000  0.000  1.000\nAt time 1792265914.412257400\n- Translation: [5.694, 5.544, 0.100]\n- Rotation: in Quaternion (xyzw) [0.000, 0.000, 0.000, 1.000]\n- Rotation: in RPY (radian) [0.000, -0.000, 0.000]\n- Rotation: in RPY (degree) [0.000, -0.000, 0.000]\n- Matrix:\n  1.000  0.000  0.000  5.694\n  0.000  1.000  0.000  5.544\n  0.000  0.000  1.000  0.100\n  0.000  0.000  0.000  1.000\nAt time 1792265915.403056500\n- Translation: [5.694, 5.544, 0.100]\n- Rotation: in Quaternion (xyzw) [0.000, 0.000, 0.000, 1.000]\n- Rotation: in RPY (radian) [0.000, -0.000, 0.000]\n- Rotation: in RPY (degree) [0.000, -0.000, 0.000]\n- Matrix:\n  1.000  0.000  0.000  5.694\n  0.000  1.000  0.000  5.544\n  0.000  0.000  1.000  0.100\n  0.000  0.000  0.000  1.000\n",
+    "broadcaster": "_tf_broadcaster]: 已发布 501 次 tf：(5.54, 5.54, yaw=0.00)\n[INFO] [1792265911.295433700] [turtle_tf_broadcaster]: 已发布 551 次 tf：(5.54, 5.54, yaw=0.00)\n[INFO] [1792265912.102486400] [turtle_tf_broadcaster]: 已发布 601 次 tf：(5.54, 5.54, yaw=0.00)\n[INFO] [1792265912.893404900] [turtle_tf_broadcaster]: 已发布 651 次 tf：(5.54, 5.54, yaw=0.00)\n[INFO] [1792265913.702894800] [turtle_tf_broadcaster]: 已发布 701 次 tf：(5.54, 5.54, yaw=0.00)\n[INFO] [1792265914.505322700] [turtle_tf_broadcaster]: 已发布 751 次 tf：(5.54, 5.54, yaw=0.00)\n[INFO] [1792265915.296189500] [turtle_tf_broadcaster]: 已发布 801 次 tf：(5.54, 5.54, yaw=0.00)\n"
+  }
+}
